@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/result_text"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_marginTop="80dp"
+        android:ellipsize="start"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="Результат:"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/math_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:ellipsize="start"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="Немає відповіді"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="40sp" />
+
+
+</LinearLayout>
